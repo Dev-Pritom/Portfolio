@@ -132,17 +132,18 @@ const ProjectCard = ({ title, description, image, techStack, demoUrl, githubUrl 
         <div className="flex flex-wrap gap-3 mt-auto">
           {demoUrl && (
             <a
-              href={demoUrl}
+              href="https://notesapp-gbc6xny40-dev-pritoms-projects.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 inline-flex items-center justify-center gap-2 h-9 rounded-md px-3 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              className="flex-1 inline-flex items-center justify-center gap-2 h-9 rounded-md px-3 text-sm font-medium bg-primary
+               text-primary-foreground hover:bg-primary/90 transition-colors"
             >
               <ExternalLink className="w-4 h-4" /> Live Demo
             </a>
           )}
           {githubUrl && (
             <a
-              href={githubUrl}
+              href="https://github.com/Dev-Pritom/NotesApp"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 inline-flex items-center justify-center gap-2 h-9 rounded-md px-3 text-sm font-medium border border-input bg-background hover:bg-accent hover:text-accent-foreground transition-colors"
