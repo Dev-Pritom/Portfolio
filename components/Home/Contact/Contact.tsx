@@ -6,9 +6,10 @@ import { Button } from '@base-ui/react';
 import { Send } from 'lucide-react';
 import React from 'react'
 
+import { createContact } from "@/actions/contactForm";
 const Contact = () => {
   return (
-    <div id='contact' className="py-16 bg-gray-100 dark:bg-gray-950">
+    <div id="contact" className="py-16 bg-gray-100 dark:bg-gray-950">
       <SectionHeading
         title_1="Get In"
         title_2="Touch"
@@ -86,7 +87,10 @@ const Contact = () => {
             data-aos-delay="150"
             data-aos-anchor-placement="top-center"
           >
-            <form className="bg-white dark:bg-gray-800 rounded-2xl p-8 space-y-6">
+            <form
+              action={createContact}
+              className="bg-white dark:bg-gray-800 rounded-2xl p-8 space-y-6"
+            >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">
@@ -94,7 +98,7 @@ const Contact = () => {
                   </label>
                   <Input
                     id="name"
-                    name="name"
+                    name="username"
                     placeholder="Pritom Saha"
                     required
                     className="bg-gray-100"
