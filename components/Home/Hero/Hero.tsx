@@ -10,7 +10,7 @@ const Hero = () => {
       className="relative min-h-screen bg-[radial-gradient(circle_476px_at_54.8%_51.5%,rgba(168,229,253,1)_0%,rgba(244,244,254,1)_42.3%,rgba(244,244,254,1)_100.2%)] flex items-center justify-center overflow-hidden dark:bg-[radial-gradient(circle_farthest-corner_at_50.3%_47.3%,rgba(113,42,92,1)_0.1%,rgba(40,25,46,1)_90%)]"
     >
       {/* content */}
-      <div className="relative z-10 text-center">
+      <div className="relative z-10 text-center px-4 sm:px-6 w-full max-w-4xl mx-auto">
         {/* subtitle */}
         <div data-aos="fade-up" className="sm:mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-gray-600 text-sm text-muted-foreground dark:text-gray-200 mb-8">
