@@ -24,7 +24,7 @@ import { FaGithub, FaFacebook, FaLinkedin, FaLinkedinIn,FaTwitter, FaInstagram} 
 export const stats = [
   { label: "Years Experience", value: "1" },
   { label: "Projects Completed", value: "15+" },
-  { label: "Happy Clients", value: "10+" },
+  
 ];
 
 export const highlights = [
