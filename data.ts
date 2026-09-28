@@ -19,7 +19,7 @@ import {
   Terminal,
 } from "lucide-react";
 
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { FaGithub, FaFacebook, FaLinkedin, FaLinkedinIn,FaTwitter, FaInstagram} from "react-icons/fa6";
 
 export const stats = [
   { label: "Years Experience", value: "1" },
@@ -91,9 +91,22 @@ export const contactInfo = [
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FaLinkedinIn, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FaTwitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/Dev-Pritom", label: "GitHub" },
+  {
+    icon: FaLinkedinIn,
+    href: "https://www.linkedin.com/in/pritom-saha-5b4a0a1b7?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    label: "LinkedIn",
+  },
+  {
+    icon: FaFacebook,
+    href: "https://www.facebook.com/pritom480",
+    label: "Facebook",
+  },
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/pritomsaha_antu?stkn=ZmJ0N21pa2szM25m",
+    label: "Instagram",
+  },
 ];
 
 export const experiences = [
