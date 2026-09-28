@@ -18,7 +18,8 @@ import {
   DatabaseIcon,
   Terminal,
   KeyIcon,
-  CreditCard
+  CreditCard,
+  KeyRound
 } from "lucide-react";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaLinkedinIn,FaTwitter, FaInstagram} from "react-icons/fa6";
@@ -211,6 +212,7 @@ export const skillCategories = [
       { name: "Stripe", icon: CreditCard },
       { name: "Linux", icon: Terminal },
       { name: "Figma", icon: Palette },
+      { name: "Clerk", icon: KeyRound },
     ],
   },
 ];
