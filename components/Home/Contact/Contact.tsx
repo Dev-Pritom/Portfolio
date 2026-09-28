@@ -13,7 +13,7 @@ const Contact = () => {
       <SectionHeading
         title_1="Get In"
         title_2="Touch"
-        description="Have a project in mind or just want to say hi?I'd love to hear from you"
+        description="Have a project in mind?I'd love to hear from you"
       />
       <div className="w-[80%] mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
