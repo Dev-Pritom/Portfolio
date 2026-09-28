@@ -3,7 +3,6 @@ import {
   Cloud,
   Code2,
   Coffee,
-  Cpu,
   Database,
   GitBranch,
   Globe,
@@ -16,7 +15,10 @@ import {
   Phone,
   Server,
   Smartphone,
+  DatabaseIcon,
   Terminal,
+  KeyIcon,
+  CreditCard
 } from "lucide-react";
 
 import { FaGithub, FaFacebook, FaLinkedin, FaLinkedinIn,FaTwitter, FaInstagram} from "react-icons/fa6";
@@ -32,41 +34,6 @@ export const highlights = [
   { icon: Briefcase, text: "Open for freelance work" },
   { icon: GraduationCap, text: "CSE Graduate from International Islamic University Chittagong" },
   { icon: Coffee, text: "Powered by coffee & curiosity" },
-];
-
-export const userReviewData = [
-  {
-    id: 1,
-    name: "John Doe",
-    profession: "Real Estate Agent",
-    userImage: "/images/u1.jpg",
-    review:
-      "A wonderful experience! The platform made it easy to find exactly what I needed. lorem ipsum dolor sit ame",
-  },
-  {
-    id: 2,
-    name: "Mike Smith",
-    profession: "Business Owner",
-    userImage: "/images/u2.jpg",
-    review:
-      "Great selection of properties and seamless process. Highly recommended for anyone looking to invest.",
-  },
-  {
-    id: 3,
-    name: "Alex Johnson",
-    profession: "Web developer",
-    userImage: "/images/u3.jpg",
-    review:
-      "The website helped me find my dream home quickly and hassle-free. Exceptional service!",
-  },
-  {
-    id: 4,
-    name: "Emily Clark",
-    profession: "Interior Designer",
-    userImage: "/images/u4.jpg",
-    review:
-      "Fantastic range of properties with clear details. The best platform for home and design inspiration!",
-  },
 ];
 
 export const contactInfo = [
@@ -221,8 +188,8 @@ export const skillCategories = [
       { name: "Next.js", icon: Globe },
       { name: "TypeScript", icon: Terminal },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
+      { name: "Html", icon: Smartphone },
+      { name: "Javascript", icon: Layout },
     ],
   },
   {
@@ -232,7 +199,7 @@ export const skillCategories = [
       { name: "Express", icon: Layers },
       { name: "MongoDB", icon: Database },
       { name: "PostgreSQL", icon: Database },
-      { name: "GraphQL", icon: Cpu },
+      { name: "Prisma", icon: DatabaseIcon },
       { name: "REST APIs", icon: Cloud },
     ],
   },
@@ -240,11 +207,10 @@ export const skillCategories = [
     title: "Tools & Others",
     skills: [
       { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: Server },
-      { name: "AWS", icon: Cloud },
+      { name: "BetterAuth", icon: KeyIcon },
+      { name: "Stripe", icon: CreditCard },
       { name: "Linux", icon: Terminal },
       { name: "Figma", icon: Palette },
-      { name: "CI/CD", icon: Cpu },
     ],
   },
 ];
