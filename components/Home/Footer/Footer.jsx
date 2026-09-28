@@ -1,4 +1,4 @@
-import { footerSocialLinks5 } from '@/data'
+import { footerSocialLinks } from '@/data'
 import { Heart } from 'lucide-react'
 import React from 'react'
 
